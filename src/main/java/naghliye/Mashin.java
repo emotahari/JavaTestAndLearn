@@ -1,9 +1,6 @@
 package naghliye;
 
-public class Mashin {
-     boolean itsON;
-     Ranande ranande;
-     String mark;
+public class Mashin extends Naghliyeh{
 
     public Mashin(){
         System.out.println("Make Car");
@@ -13,12 +10,7 @@ public class Mashin {
         System.out.println("Make Car " + mark);
         this.mark = mark;
     }
-    void RoshnKon(){
-        itsON = true;
-    }
-    void KhamushKon(){
-        itsON = false;
-    }
+
     public boolean OnIt(){
         System.out.println("Its ON!");
         return itsON;

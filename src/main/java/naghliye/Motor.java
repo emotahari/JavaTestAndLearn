@@ -1,16 +1,7 @@
 package naghliye;
 
-public class Motor {
-    boolean itsON;
-    Ranande ranande;
-    String mark;
+public class Motor extends Naghliyeh{
 
-    public void RoshanKon(){
-        itsON = true;
-    }
-    void KhamushKon(){
-        itsON = false;
-    }
     public boolean OnIt(){
         if (itsON == true){
             System.out.println("Its ON!");
