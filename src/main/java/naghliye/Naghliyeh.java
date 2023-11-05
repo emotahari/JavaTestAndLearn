@@ -1,6 +1,6 @@
 package naghliye;
 
-public class Naghliyeh {
+public abstract class Naghliyeh {
     boolean itsON;
     Ranande ranande;
     String mark;
@@ -12,4 +12,6 @@ public class Naghliyeh {
         itsON = false;
     }
 
+
+    public abstract String getMark();
 }

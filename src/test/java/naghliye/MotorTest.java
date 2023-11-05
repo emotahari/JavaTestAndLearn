@@ -1,3 +1,5 @@
+package naghliye;
+
 import naghliye.Mashin;
 import naghliye.Motor;
 import org.junit.Test;

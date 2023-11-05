@@ -1,6 +1,10 @@
 package naghliye;
 
 public class Motor extends Naghliyeh{
+    String mark = "Motor";
+
+    public Motor() {
+    }
 
     public boolean OnIt(){
         if (itsON == true){
@@ -10,5 +14,8 @@ public class Motor extends Naghliyeh{
             System.out.println("Its OFF!");
         return false;
         }
+    }
+    public String getMark() {
+        return "Motor";
     }
 }
