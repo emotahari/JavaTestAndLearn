@@ -2,8 +2,9 @@ package naghliye;
 
 import naghliye.Mashin;
 import naghliye.Motor;
-import org.junit.Test;
-import org.junit.gen5.api.Assertions;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
 
 public class MotorTest {
     @Test

@@ -16,5 +16,6 @@ public class ShopinigListServisImp implements ShoppingListService{
             item.check();
         }
 
+
     }
 }

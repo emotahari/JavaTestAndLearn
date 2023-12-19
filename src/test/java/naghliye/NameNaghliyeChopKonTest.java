@@ -1,8 +1,9 @@
 package naghliye;
 
 import naghliye.*;
-import org.junit.Test;
-import org.junit.gen5.api.Assertions;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
 
 public class NameNaghliyeChopKonTest {
 
