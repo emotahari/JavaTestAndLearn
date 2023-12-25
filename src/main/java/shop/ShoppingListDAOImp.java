@@ -23,7 +23,7 @@ public class ShoppingListDAOImp implements ShoppingListDAo {
                 items.add(new Item(name, quantity));
             }
         } catch (SQLException e){
-            e.printStackTrace();
+            throw  new MainSqlExtention(e);
         }
         return items;
     }

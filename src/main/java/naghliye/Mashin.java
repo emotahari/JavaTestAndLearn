@@ -1,6 +1,6 @@
 package naghliye;
 
-class Mashin extends Naghliyeh implements GearBox, GonjayeshSandogh{
+public class Mashin extends Naghliyeh implements GearBox, GonjayeshSandogh{
 
     int gonjayeshSandogh;
     String gearBox;

@@ -19,7 +19,7 @@ public class ItemTest {
 
     @BeforeEach
     void setUp() {
-        shoppingList = new ShopinigListServisImp();
+        shoppingList = new ShopinigListServisImp(new ShoppingListDAOImp());
         itemList = new LinkedList<>();
     }
 
