@@ -1,8 +1,8 @@
 package football.player;
 
 public class Player {
-    String name;
-    Integer goal;
+    private final String name;
+    private final Integer goal;
 
     public Player(String name, int goal) {
         this.name = name;
@@ -17,11 +17,11 @@ public class Player {
         return goal;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setGoal(Integer goal) {
-        this.goal = goal;
-    }
+//    public void setName(String name) {
+//        this.name = name;
+//    }
+//
+//    public void setGoal(Integer goal) {
+//        this.goal = goal;
+//    }
 }

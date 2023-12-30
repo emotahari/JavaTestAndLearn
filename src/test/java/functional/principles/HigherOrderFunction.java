@@ -1,6 +1,5 @@
 package functional.principles;
 
-import com.sun.org.apache.xpath.internal.operations.Operation;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -33,18 +32,5 @@ public class HigherOrderFunction {
 
 
     }
-    @FunctionalInterface
-    interface Operation {
-        int applyOperation(int number);
-        default int another(int number) {
-            return 0;
-        }
-
-    }
-    @FunctionalInterface
-    interface AddOperationTo {
-        int apply();
-    }
-
 
 }
