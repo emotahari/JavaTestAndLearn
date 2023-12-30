@@ -20,4 +20,5 @@ public class ImmutableFunctionShould {
     private AddOperationTo addOperationTo(int number, Operation operation) {
         return () -> operation.applyOperation(number);
     }
+
 }
