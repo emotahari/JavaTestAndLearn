@@ -24,4 +24,13 @@ public class Player {
 //    public void setGoal(Integer goal) {
 //        this.goal = goal;
 //    }
+
+
+    @Override
+    public String toString() {
+        return "Player{" +
+                "name='" + name + '\'' +
+                ", goal=" + goal +
+                '}';
+    }
 }

@@ -1,8 +1,10 @@
 package stream;
 
 import football.player.Player;
+import helper.PlayerTestHelper;
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.Stream;
@@ -15,15 +17,10 @@ public class StreamShould {
 
         //assert nadarim
 
-        final Stream<Player> stream = getPlayer().stream();
+        final Stream<Player> stream = new PlayerTestHelper().getPlayers().stream();
+        Integer[] numbers = new Integer[5];
+        Stream<Integer> numberStream = Arrays.stream(numbers);
 
     }
 
-    private List<Player> getPlayer() {
-        List<Player> scorers = new LinkedList<>() ;
-        scorers.add(new Player("AliDaei", 109));
-        scorers.add(new Player("asghar", 178));
-        scorers.add(new Player("akbar", 89));
-        return scorers;
-    }
 }
